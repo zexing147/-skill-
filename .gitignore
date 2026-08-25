@@ -1,0 +1,8 @@
+# Local runtimes, browser profiles, caches and downloaded provider sources
+content-research-router/providers/wechat/vendor/
+content-research-router/providers/wechat/.bun-cache/
+content-research-router/providers/wechat/.npm-cache/
+content-research-router/providers/wechat/.tmp/
+MediaCrawler/.venv/
+MediaCrawler/chrome-cdp-profile/
+MediaCrawler/.matplotlib/
