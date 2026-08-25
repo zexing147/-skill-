@@ -13,10 +13,11 @@ description: 统一路由抖音、微信公众号和知乎采集，平台独立�
 
 默认阈值：近 6 个月；每个关键词候选最多 50 条，最终最多 10 条；抖音账号最多 10 条作品、每条最多 20 条一级评论；公众号和知乎不抓评论；任何平台都不抓二级评论。
 
-Provider 目录：
+目录结构：
 
-- 抖音：`C:\Users\14709\.codex\skills\douyin-research-tikhub`
-- 公众号：`C:\Users\14709\Documents\ChatGPT\商业流程自动化\wechat-provider`
-- 知乎：`C:\Users\14709\Documents\ChatGPT\商业流程自动化\知乎研究`
+- `content-research-router/SKILL.md`：总路由
+- `content-research-router/providers/douyin/`：抖音 Provider、脚本与参考资料
+- `content-research-router/providers/wechat/`：公众号 Provider、下载器与汇总脚本
+- `content-research-router/providers/zhihu/`：知乎 Provider 与说明
 
 当前状态：三个 Provider 分开调用，路由文档已统一边界；尚未提供一个跨平台总启动脚本。不要用一个平台的命令替代另一个平台的 Provider。
