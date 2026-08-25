@@ -9,6 +9,10 @@ metadata:
 
 按平台路由：抖音先用 `chinese-sensitive-words-mcp` 做词库预筛，再用抖音官方文本内容安全接口复核；闲鱼使用本地 RAG 词库进行商品违禁、版权和盗版违规预筛。形成发布前风险筛查。
 
+## 新环境接手
+
+仓库克隆后不会自动注册本 Skill。新 Agent 必须将 `douyin-content-safety/` 整个目录复制到自己的用户级 Skills 目录并重启；闲鱼流程无需凭证即可运行，抖音官方复核需要用户在开发者服务器配置 `DOUYIN_ACCESS_TOKEN`。完整接手步骤见仓库根目录 [README.md](../README.md)。
+
 ## 必须遵守
 
 - 仅检测用户明确提供的文本，不擅自改写或规避平台审核。
