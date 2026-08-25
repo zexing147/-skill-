@@ -1,0 +1,121 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.13.0
+2 info using node@v24.16.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\14709\Documents\ChatGPT\商业流程自动化\wechat-provider\vendor\wechat-article-downloader\.npmrc
+5 silly config load:file:C:\Users\14709\.npmrc
+6 silly config load:file:C:\Users\14709\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm exec bun --version
+8 verbose argv "exec" "--yes" "--" "bun" "--version"
+9 verbose logfile logs-max:10 dir:C:\Users\14709\Documents\ChatGPT\商业流程自动化\wechat-provider\.npm-cache\_logs\2026-08-25T22_38_27_794Z-
+10 verbose logfile C:\Users\14709\Documents\ChatGPT\商业流程自动化\wechat-provider\.npm-cache\_logs\2026-08-25T22_38_27_794Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 http fetch GET 200 https://registry.npmjs.org/npm 895ms
+14 http fetch GET https://registry.npmjs.org/bun attempt 1 failed with ECONNRESET
+15 http fetch GET 200 https://registry.npmjs.org/bun 26085ms attempt #2 (cache miss)
+16 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+17 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+18 silly idealTree buildDeps
+19 silly fetch manifest bun@1.4.0
+20 silly packumentCache full:https://registry.npmjs.org/bun cache-miss
+21 http fetch GET 200 https://registry.npmjs.org/bun 417ms (cache miss)
+22 silly packumentCache full:https://registry.npmjs.org/bun set size:undefined disposed:false
+23 silly placeDep ROOT bun@1.4.0 OK for:  want: 1.4.0
+24 silly fetch manifest @oven/bun-linux-x64@1.4.0
+25 silly packumentCache full:https://registry.npmjs.org/@oven%2fbun-linux-x64 cache-miss
+26 silly fetch manifest @oven/bun-darwin-x64@1.4.0
+27 silly packumentCache full:https://registry.npmjs.org/@oven%2fbun-darwin-x64 cache-miss
+28 silly fetch manifest @oven/bun-freebsd-x64@1.4.0
+29 silly packumentCache full:https://registry.npmjs.org/@oven%2fbun-freebsd-x64 cache-miss
+30 silly fetch manifest @oven/bun-windows-x64@1.4.0
+31 silly packumentCache full:https://registry.npmjs.org/@oven%2fbun-windows-x64 cache-miss
+32 silly fetch manifest @oven/bun-linux-aarch64@1.4.0
+33 silly packumentCache full:https://registry.npmjs.org/@oven%2fbun-linux-aarch64 cache-miss
+34 silly fetch manifest @oven/bun-darwin-aarch64@1.4.0
+35 silly packumentCache full:https://registry.npmjs.org/@oven%2fbun-darwin-aarch64 cache-miss
+36 silly fetch manifest @oven/bun-linux-x64-musl@1.4.0
+37 silly packumentCache full:https://registry.npmjs.org/@oven%2fbun-linux-x64-musl cache-miss
+38 silly fetch manifest @oven/bun-freebsd-aarch64@1.4.0
+39 silly packumentCache full:https://registry.npmjs.org/@oven%2fbun-freebsd-aarch64 cache-miss
+40 silly fetch manifest @oven/bun-windows-aarch64@1.4.0
+41 silly packumentCache full:https://registry.npmjs.org/@oven%2fbun-windows-aarch64 cache-miss
+42 silly fetch manifest @oven/bun-linux-x64-android@1.4.0
+43 silly packumentCache full:https://registry.npmjs.org/@oven%2fbun-linux-x64-android cache-miss
+44 silly fetch manifest @oven/bun-linux-aarch64-musl@1.4.0
+45 silly packumentCache full:https://registry.npmjs.org/@oven%2fbun-linux-aarch64-musl cache-miss
+46 silly fetch manifest @oven/bun-linux-aarch64-android@1.4.0
+47 silly packumentCache full:https://registry.npmjs.org/@oven%2fbun-linux-aarch64-android cache-miss
+48 http fetch GET 200 https://registry.npmjs.org/@oven%2fbun-linux-x64 784ms (cache miss)
+49 silly packumentCache full:https://registry.npmjs.org/@oven%2fbun-linux-x64 set size:undefined disposed:false
+50 http fetch GET 200 https://registry.npmjs.org/@oven%2fbun-linux-x64-android 1157ms (cache miss)
+51 silly packumentCache full:https://registry.npmjs.org/@oven%2fbun-linux-x64-android set size:undefined disposed:false
+52 http fetch GET 200 https://registry.npmjs.org/@oven%2fbun-freebsd-x64 1174ms (cache miss)
+53 silly packumentCache full:https://registry.npmjs.org/@oven%2fbun-freebsd-x64 set size:undefined disposed:false
+54 http fetch GET 200 https://registry.npmjs.org/@oven%2fbun-freebsd-aarch64 1252ms (cache miss)
+55 silly packumentCache full:https://registry.npmjs.org/@oven%2fbun-freebsd-aarch64 set size:undefined disposed:false
+56 http fetch GET 200 https://registry.npmjs.org/@oven%2fbun-windows-aarch64 1275ms (cache miss)
+57 silly packumentCache full:https://registry.npmjs.org/@oven%2fbun-windows-aarch64 set size:undefined disposed:false
+58 http fetch GET 200 https://registry.npmjs.org/@oven%2fbun-linux-aarch64-android 1322ms (cache miss)
+59 silly packumentCache full:https://registry.npmjs.org/@oven%2fbun-linux-aarch64-android set size:undefined disposed:false
+60 http fetch GET 200 https://registry.npmjs.org/@oven%2fbun-linux-x64-musl 1389ms (cache miss)
+61 silly packumentCache full:https://registry.npmjs.org/@oven%2fbun-linux-x64-musl set size:undefined disposed:false
+62 http fetch GET 200 https://registry.npmjs.org/@oven%2fbun-linux-aarch64-musl 1464ms (cache miss)
+63 silly packumentCache full:https://registry.npmjs.org/@oven%2fbun-linux-aarch64-musl set size:undefined disposed:false
+64 http fetch GET 200 https://registry.npmjs.org/@oven%2fbun-windows-x64 1491ms (cache miss)
+65 silly packumentCache full:https://registry.npmjs.org/@oven%2fbun-windows-x64 set size:undefined disposed:false
+66 http fetch GET 200 https://registry.npmjs.org/@oven%2fbun-darwin-aarch64 1606ms (cache miss)
+67 silly packumentCache full:https://registry.npmjs.org/@oven%2fbun-darwin-aarch64 set size:undefined disposed:false
+68 http fetch GET 200 https://registry.npmjs.org/@oven%2fbun-linux-aarch64 1643ms (cache miss)
+69 silly packumentCache full:https://registry.npmjs.org/@oven%2fbun-linux-aarch64 set size:undefined disposed:false
+70 http fetch GET 200 https://registry.npmjs.org/@oven%2fbun-darwin-x64 1717ms (cache miss)
+71 silly packumentCache full:https://registry.npmjs.org/@oven%2fbun-darwin-x64 set size:undefined disposed:false
+72 silly placeDep ROOT @oven/bun-darwin-aarch64@1.4.0 OK for: bun@1.4.0 want: 1.4.0
+73 silly placeDep ROOT @oven/bun-darwin-x64@1.4.0 OK for: bun@1.4.0 want: 1.4.0
+74 silly placeDep ROOT @oven/bun-freebsd-aarch64@1.4.0 OK for: bun@1.4.0 want: 1.4.0
+75 silly placeDep ROOT @oven/bun-freebsd-x64@1.4.0 OK for: bun@1.4.0 want: 1.4.0
+76 silly placeDep ROOT @oven/bun-linux-aarch64@1.4.0 OK for: bun@1.4.0 want: 1.4.0
+77 silly placeDep ROOT @oven/bun-linux-aarch64-android@1.4.0 OK for: bun@1.4.0 want: 1.4.0
+78 silly placeDep ROOT @oven/bun-linux-aarch64-musl@1.4.0 OK for: bun@1.4.0 want: 1.4.0
+79 silly placeDep ROOT @oven/bun-linux-x64@1.4.0 OK for: bun@1.4.0 want: 1.4.0
+80 silly placeDep ROOT @oven/bun-linux-x64-android@1.4.0 OK for: bun@1.4.0 want: 1.4.0
+81 silly placeDep ROOT @oven/bun-linux-x64-musl@1.4.0 OK for: bun@1.4.0 want: 1.4.0
+82 silly placeDep ROOT @oven/bun-windows-aarch64@1.4.0 OK for: bun@1.4.0 want: 1.4.0
+83 silly placeDep ROOT @oven/bun-windows-x64@1.4.0 OK for: bun@1.4.0 want: 1.4.0
+84 silly reify moves {}
+85 silly audit bulk request {
+85 silly audit   bun: [ '1.4.0' ],
+85 silly audit   '@oven/bun-darwin-aarch64': [ '1.4.0' ],
+85 silly audit   '@oven/bun-darwin-x64': [ '1.4.0' ],
+85 silly audit   '@oven/bun-freebsd-aarch64': [ '1.4.0' ],
+85 silly audit   '@oven/bun-freebsd-x64': [ '1.4.0' ],
+85 silly audit   '@oven/bun-linux-aarch64': [ '1.4.0' ],
+85 silly audit   '@oven/bun-linux-aarch64-android': [ '1.4.0' ],
+85 silly audit   '@oven/bun-linux-aarch64-musl': [ '1.4.0' ],
+85 silly audit   '@oven/bun-linux-x64': [ '1.4.0' ],
+85 silly audit   '@oven/bun-linux-x64-android': [ '1.4.0' ],
+85 silly audit   '@oven/bun-linux-x64-musl': [ '1.4.0' ],
+85 silly audit   '@oven/bun-windows-aarch64': [ '1.4.0' ],
+85 silly audit   '@oven/bun-windows-x64': [ '1.4.0' ]
+85 silly audit }
+86 http cache bun@https://registry.npmjs.org/bun/-/bun-1.4.0.tgz 0ms (cache hit)
+87 http cache @oven/bun-windows-x64@https://registry.npmjs.org/@oven/bun-windows-x64/-/bun-windows-x64-1.4.0.tgz 0ms (cache hit)
+88 silly tarball no local data for bun@https://registry.npmjs.org/bun/-/bun-1.4.0.tgz. Extracting by manifest.
+89 silly tarball no local data for @oven/bun-windows-x64@https://registry.npmjs.org/@oven/bun-windows-x64/-/bun-windows-x64-1.4.0.tgz. Extracting by manifest.
+90 http fetch GET 200 https://registry.npmjs.org/bun/-/bun-1.4.0.tgz 148ms (cache miss)
+91 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 289ms
+92 silly audit report {}
+93 http fetch GET 200 https://registry.npmjs.org/@oven/bun-windows-x64/-/bun-windows-x64-1.4.0.tgz 4726ms (cache miss)
+94 info run bun@1.4.0 postinstall node_modules/bun node install.js
+95 info run bun@1.4.0 postinstall { code: 0, signal: null }
+96 verbose cwd C:\Users\14709\Documents\ChatGPT\商业流程自动化\wechat-provider\vendor\wechat-article-downloader
+97 verbose os Windows_NT 10.0.26200
+98 verbose node v24.16.0
+99 verbose npm  v11.13.0
+100 notice
+100 notice New major version of npm available! 11.13.0 -> 12.0.2
+100 notice Changelog: https://github.com/npm/cli/releases/tag/v12.0.2
+100 notice To update run: npm install -g npm@12.0.2
+100 notice  { force: true, Symbol(proc-log.meta): true }
+101 verbose exit 0
+102 info ok

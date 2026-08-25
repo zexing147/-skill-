@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "bun": "^1.4.0"
+  },
+  "_npx": {
+    "packages": [
+      "bun"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "job_id": "c37c3956-ce25-4752-baac-6203bc23069f",
+  "provider": "tikhub",
+  "status": "completed",
+  "requested_scope": {
+    "accounts": [
+      "https://v.douyin.com/-Hncf0TntJo/"
+    ],
+    "videos": 1,
+    "base_url": "https://api.tikhub.dev",
+    "max_estimated_cost_usd": 0.01
+  },
+  "estimated_requests": 2,
+  "max_api_calls": 2,
+  "max_estimated_cost_usd": 0.01,
+  "actual_requests": 2,
+  "estimated_cost_usd": 0.002,
+  "reported_billed_cost_usd": null,
+  "accounts_requested": 1,
+  "accounts_failed": 0,
+  "videos_saved_this_run": 1,
+  "database_totals": {
+    "accounts.csv": 1,
+    "videos.csv": 1,
+    "video-metrics.csv": 1,
+    "comments.csv": 0,
+    "api-usage.csv": 2
+  },
+  "errors": [],
+  "stopped_reason": null,
+  "finished_at": "2026-08-25T19:22:21.987160+00:00"
+}
