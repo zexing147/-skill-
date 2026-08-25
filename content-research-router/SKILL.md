@@ -20,4 +20,15 @@ description: 统一路由抖音、微信公众号和知乎采集，平台独立�
 - `content-research-router/providers/wechat/`：公众号 Provider、下载器与汇总脚本
 - `content-research-router/providers/zhihu/`：知乎 Provider 与说明
 
-当前状态：三个 Provider 分开调用，路由文档已统一边界；尚未提供一个跨平台总启动脚本。不要用一个平台的命令替代另一个平台的 Provider。
+当前状态：三个 Provider 分开调用，路由文档已统一边界；提供统一环境初始化和体检脚本，但采集仍按平台分别执行。不要用一个平台的命令替代另一个平台的 Provider。
+
+## 新电脑初始化
+
+仓库已内置 MediaCrawler 源码。Windows 新电脑在仓库根目录运行：
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\content-research-router\scripts\bootstrap.ps1
+powershell -ExecutionPolicy Bypass -File .\content-research-router\scripts\doctor.ps1
+```
+
+首次使用抖音仍需扫码登录；Cookie、密钥、浏览器目录和采集结果不进入 Git。
