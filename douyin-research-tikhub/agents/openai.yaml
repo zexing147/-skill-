@@ -1,0 +1,4 @@
+interface:
+  display_name: "抖音账号研究（TikHub）"
+  short_description: "批量采集抖音账号作品、指标与评论并保存到本地数据库"
+  default_prompt: "Use $douyin-research-tikhub to estimate and collect recent Douyin account works with optional comments."
